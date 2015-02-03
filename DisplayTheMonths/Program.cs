@@ -14,7 +14,7 @@ namespace DisplayTheMonths
             {
                 //here is a fun comment
                 var monthName = GetMonthName(i);
-                Console.WriteLine(monthName + " words are hard.");
+                Console.WriteLine(monthName + "- 2015");
             }
             Console.ReadLine();
         }
