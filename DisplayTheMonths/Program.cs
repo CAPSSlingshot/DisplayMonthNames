@@ -12,8 +12,9 @@ namespace DisplayTheMonths
         {
             for (int i = 0; i <= 12; i++)
             {
+                //here is a fun comment
                 var monthName = GetMonthName(i);
-                Console.WriteLine(monthName);
+                Console.WriteLine(monthName + " words are hard.");
             }
             Console.ReadLine();
         }
